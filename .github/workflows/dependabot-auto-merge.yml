@@ -50,29 +50,16 @@ jobs:
             };
 
             const findCandidatePulls = async () => {
-              const branch = context.payload.workflow_run?.head_branch;
-              if (context.eventName === "workflow_run" && branch) {
-                const { data: pulls } = await github.rest.pulls.list({
-                  owner,
-                  repo,
-                  state: "open",
-                  head: owner + ":" + branch,
-                  per_page: 10,
-                });
-
-                return pulls.filter((pr) => pr.user?.login === "dependabot[bot]");
-              }
-
               const pulls = await github.paginate(github.rest.pulls.list, {
                 owner,
                 repo,
                 state: "open",
                 per_page: 100,
               });
-
+            
               return pulls.filter((pr) => pr.user?.login === "dependabot[bot]");
             };
-
+            
             const getMergeablePullRequest = async (pull_number) => {
               for (let attempt = 1; attempt <= 6; attempt += 1) {
                 const { data: pr } = await github.rest.pulls.get({ owner, repo, pull_number });
