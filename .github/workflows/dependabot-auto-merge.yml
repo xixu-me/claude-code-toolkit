@@ -3,7 +3,6 @@ name: Dependabot Auto Merge
 on:
   check_suite:
     types: [completed]
-  status:
   workflow_run:
     workflows:
       - "CodeQL"
