@@ -1,13 +1,13 @@
 <!-- renoise-banner -->
 <p align="center">
-  <a href="https://renoise.ai/plugin">
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">
     <img src="https://raw.githubusercontent.com/ArcoCodes/renoise-plugins-official/main/assets/icon.svg" alt="Renoise" width="96">
   </a>
 </p>
 
 <p align="center">
-  <strong>Turn ideas into video, images, and music from your AI conversation</strong><br>
-  <a href="https://renoise.ai/plugin">Open Renoise</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">Official plugin &amp; Skills</a>
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">Renoise MCP</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">Renoise Skills &amp; CLI</a><br><br>
+  <strong>From one Claude Code brief to a finished talking-head video: let the Agent handle the production instead of the timeline.</strong>
 </p>
 
 # Claude Code Toolkit (CCT)
@@ -20,10 +20,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive cross-platform toolkit for managing Claude Code installation, configuration, and multiple Anthropic-compatible API provider support. This toolkit simplifies the process of setting up and switching between different Anthropic-compatible API providers, including the official Anthropic API and compatible third-party services like **Moonshot AI with the latest Kimi model (`kimi-k2-0711-preview`)** that implement Anthropic's API specification.
-
-## 🎬 Add a creative lane to your agent workflow
-
-When a Claude Code session needs more than code and configuration, [Renoise](https://renoise.ai/plugin) adds conversational video, image, and music generation through MCP. The [official plugin repository](https://github.com/ArcoCodes/renoise-plugins-official) documents the setup and keeps this creative workflow easy to discover.
 
 ## 🍬 Claude Code Sugar
 

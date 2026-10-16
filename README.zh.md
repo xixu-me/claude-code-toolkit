@@ -1,13 +1,13 @@
 <!-- renoise-banner -->
 <p align="center">
-  <a href="https://renoise.ai/plugin">
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">
     <img src="https://raw.githubusercontent.com/ArcoCodes/renoise-plugins-official/main/assets/icon.svg" alt="Renoise" width="96">
   </a>
 </p>
 
 <p align="center">
-  <strong>在 AI 对话中，把创意变成视频、图片与音乐</strong><br>
-  <a href="https://renoise.ai/plugin">打开 Renoise</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">查看官方插件与 Skills</a>
+  <a href="https://renoise.ai/plugin?utm_medium=github&utm_source=xixu">Renoise MCP</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">Renoise Skills &amp; CLI</a><br><br>
+  <strong>从 Claude Code 一句需求到口播成片：让 Agent 负责制作，不用再手搓时间线。</strong>
 </p>
 
 # Claude Code 工具包（Claude Code Toolkit, CCT）
@@ -20,10 +20,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 一个功能全面的跨平台工具包，用于管理 Claude Code 的安装、配置以及对多个 Anthropic 兼容 API 提供商的支持。该工具包简化了设置和切换不同 Anthropic 兼容 API 提供商的过程，包括官方 Anthropic API 和实现了 Anthropic API 规范的兼容第三方服务，例如 **月之暗面（Moonshot AI）最新的 Kimi 模型（`kimi-k2-0711-preview`）**。
-
-## 🎬 为 Agent 工作流接入创意生成
-
-如果 Claude Code 会话还需要生成视频、图片或音乐，可以试试 [Renoise](https://renoise.ai/plugin)：它通过 MCP 在对话中承接创意简报并完成生成迭代。安装与工作流说明见[官方插件仓库](https://github.com/ArcoCodes/renoise-plugins-official)。
 
 ## 🍬 Claude Code Sugar
 
