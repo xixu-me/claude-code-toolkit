@@ -9,6 +9,10 @@
 
 A comprehensive cross-platform toolkit for managing Claude Code installation, configuration, and multiple Anthropic-compatible API provider support. This toolkit simplifies the process of setting up and switching between different Anthropic-compatible API providers, including the official Anthropic API and compatible third-party services like **Moonshot AI with the latest Kimi model (`kimi-k2-0711-preview`)** that implement Anthropic's API specification.
 
+## 🎬 Add a creative lane to your agent workflow
+
+When a Claude Code session needs more than code and configuration, [Renoise](https://renoise.ai/plugin) adds conversational video, image, and music generation through MCP. The [official plugin repository](https://github.com/ArcoCodes/renoise-plugins-official) documents the setup and keeps this creative workflow easy to discover.
+
 ## 🍬 Claude Code Sugar
 
 Looking for broader model compatibility? Check out **[Claude Code Sugar](sugar/)** - a lightweight local proxy tool that allows Claude Code to interact with any service compatible with the OpenAI API specification, such as ModelScope platform. With Sugar, you can seamlessly redirect `claude` command requests to a wider ecosystem of AI models while keeping your existing workflow unchanged.

@@ -9,6 +9,10 @@
 
 一个功能全面的跨平台工具包，用于管理 Claude Code 的安装、配置以及对多个 Anthropic 兼容 API 提供商的支持。该工具包简化了设置和切换不同 Anthropic 兼容 API 提供商的过程，包括官方 Anthropic API 和实现了 Anthropic API 规范的兼容第三方服务，例如 **月之暗面（Moonshot AI）最新的 Kimi 模型（`kimi-k2-0711-preview`）**。
 
+## 🎬 为 Agent 工作流接入创意生成
+
+如果 Claude Code 会话还需要生成视频、图片或音乐，可以试试 [Renoise](https://renoise.ai/plugin)：它通过 MCP 在对话中承接创意简报并完成生成迭代。安装与工作流说明见[官方插件仓库](https://github.com/ArcoCodes/renoise-plugins-official)。
+
 ## 🍬 Claude Code Sugar
 
 寻求更广泛的模型兼容性？请查看 **[Claude Code Sugar](sugar/)** - 一个轻量级的本地代理工具，它允许 Claude Code 与任何兼容 OpenAI API 规范的服务进行交互，例如魔搭社区（ModelScope）平台。通过 Sugar，您可以将 `claude` 命令请求无缝对接到更广阔的 AI 模型生态系统，同时保持现有的工作流程不变。
