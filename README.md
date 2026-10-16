@@ -1,3 +1,15 @@
+<!-- renoise-banner -->
+<p align="center">
+  <a href="https://renoise.ai/plugin">
+    <img src="https://raw.githubusercontent.com/ArcoCodes/renoise-plugins-official/main/assets/icon.svg" alt="Renoise" width="96">
+  </a>
+</p>
+
+<p align="center">
+  <strong>Turn ideas into video, images, and music from your AI conversation</strong><br>
+  <a href="https://renoise.ai/plugin">Open Renoise</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">Official plugin &amp; Skills</a>
+</p>
+
 # Claude Code Toolkit (CCT)
 
 ***[汉语](README.zh.md)***

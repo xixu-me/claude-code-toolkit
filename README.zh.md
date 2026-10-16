@@ -1,3 +1,15 @@
+<!-- renoise-banner -->
+<p align="center">
+  <a href="https://renoise.ai/plugin">
+    <img src="https://raw.githubusercontent.com/ArcoCodes/renoise-plugins-official/main/assets/icon.svg" alt="Renoise" width="96">
+  </a>
+</p>
+
+<p align="center">
+  <strong>在 AI 对话中，把创意变成视频、图片与音乐</strong><br>
+  <a href="https://renoise.ai/plugin">打开 Renoise</a> · <a href="https://github.com/ArcoCodes/renoise-plugins-official">查看官方插件与 Skills</a>
+</p>
+
 # Claude Code 工具包（Claude Code Toolkit, CCT）
 
 ***[English](README.md)***
